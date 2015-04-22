@@ -21,40 +21,40 @@ seguramente con un [visualGit](https://github.com/pvginkel/VisualGit) o [sourceT
 NOTA: este tutorial está dirigido a java developers con experiencia en desarrollo de aplicaciones mvc utilizando el stack tecnológico de spring. 
 
 ## agenda
- - paso 1 : mi primer microservicio spring-boot 
+ - [paso 1 : mi primer microservicio spring-boot](paso-1.md)
    - qué es un microservicio ?
    - qué es spring boot
    - hellow (micro) world
- - paso 2 : comenzando con netflix oss
+ - [paso 2 : comenzando con netflix oss](paso-2.md)
     - la problemática de los microservicios
     - qué es netflix oss ?
     - el primer servicio netflix: archaius
     - actualizamos el microservicio para usar configuración distribuida
     - cambiar la configuración en caliente a un microservicio
     - cambiar la configuración en caliente en el repo y los microservicios
- - paso 3 : registro y localización de microservicios
+ - [paso 3 : registro y localización de microservicios](paso-3.md)
     - registro, localización y eureka!
     - instanciando un servidor
     - añadiendo el cliente al microservicio
     - la consola de eureka
- - paso 4 : gestionando peticiones a microservicios
+ - [paso 4 : gestionando peticiones a microservicios](paso-4.md)
     - enrutado, balanceo y otros malabares
     - invocando a zuul
     - algunas pruebas
     - ...y otras pruebas más
- - paso 5 : clientes inteligentes
+ - [paso 5 : clientes inteligentes](paso-5.md)
     - un poco de contexto
     - crear un cliente con Feign
     - añadirle balanceo en cliente con ribbon
     - añadirle circuit-braker con hystrix
       -  monitorizando clientes con hystrix dashboard
       - clusterizando la monitorización hystrix con turbine
- - paso 6 : comunicando microservicios
+ - [paso 6 : comunicando microservicios](paso-6.md)
     -  un bus para comunicarles a todos
     -  instalando rabbitmq
     -  actualizar los microservicios
     -  enviar mensajes
- - paso 7 : TBD
+ - [paso 7 : TBD](paso-7.md)
 
 Te gustan estos temas? Entonces tienes que conocer lo que hacemos en [Adesis Netlife](http://www.adesis.com).
 
