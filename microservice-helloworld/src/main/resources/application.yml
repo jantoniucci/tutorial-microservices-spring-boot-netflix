@@ -5,16 +5,12 @@ endpoints:
     enabled: true
   restart:
     enabled: true
-spring:
-  application:
-    name: helloworld
-  cloud:
-    config:
-      enabled: true
-      uri: http://localhost:8888
-      failFast: true
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-      
+spring:
+   config:
+      name:  helloworld
+   application:
+      name:  helloworld      

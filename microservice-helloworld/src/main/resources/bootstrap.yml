@@ -1,0 +1,10 @@
+spring:
+  config:
+    name: helloworld
+  application:
+    name: helloworld
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+      failFast: true

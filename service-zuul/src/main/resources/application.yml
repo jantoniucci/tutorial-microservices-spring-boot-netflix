@@ -1,0 +1,28 @@
+info:
+  component: zuul server app
+    
+server:
+  port: 8080
+  
+spring:
+  config:
+    name:  zuulserver
+  application:
+    name: zuulserver
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+
+zuul:
+  routes:
+    greetings:
+      path: /greetings/**
+      serviceId: GREETINGS
+    helloworld:
+      path: /helloworld/**
+      serviceId: HELLOWORLD
+
+error:
+  whitelabel:
+    enabled:false
