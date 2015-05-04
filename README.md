@@ -3,7 +3,7 @@
 este tutorial consiste en breves explicaciones, muchos enlaces y código de ejemplo sobre el que experimentar. está basado en la documentación oficial de spring cloud y netfilx oss condimentado con otros contenidos que me parecieron oportunos.
 
 ```sh
-$ git clone http://github.com/jantoniucci/....git
+$ git clone https://github.com/jantoniucci/tutorial-microservices-spring-boot-netflix.git
 ```
 el tuturial está organizado en "pasos" que van acompañados de tags en este repositorio. comenzamos accediendo al primer paso con el comando:
 ```sh
@@ -54,7 +54,7 @@ NOTA: este tutorial está dirigido a java developers con experiencia en desarrol
     -  instalando rabbitmq
     -  actualizar los microservicios
     -  enviar mensajes
- - [paso 7 : TBD](paso-7.md)
+ - [paso 7 : Conclusiones](paso-7.md)
 
 Te gustan estos temas? Entonces tienes que conocer lo que hacemos en [Adesis Netlife](http://www.adesis.com).
 
