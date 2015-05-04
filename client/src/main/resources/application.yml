@@ -1,0 +1,41 @@
+server:
+  port: 9001
+info:
+  component: client app 
+endpoints:
+  shutdown:
+    enabled: true
+  restart:
+    enabled: true
+spring:
+  config:
+    name: microservicesclient
+  application:
+    name: microservicesclient
+  cloud:
+    config:
+      enabled: false
+zuulserver:
+  ribbon:
+    listOfServers: localhost:8080
+
+    # the eureka vipAddress of the target service (Disabled)
+    #DeploymentContextBasedVipAddresses: samplebackendservice
+
+    # Max number of retries on the same server (excluding the first try)
+    MaxAutoRetries: 1
+
+    # Max number of next servers to retry (excluding the first server)
+    MaxAutoRetriesNextServer: 1
+
+    # Whether all operations can be retried for this client
+    OkToRetryOnAllOperations: true
+
+    # Interval to refresh the server list from the source
+    ServerListRefreshInterval: 2000
+
+    # Connect timeout used by Apache HttpClient
+    ConnectTimeout: 3000
+
+    # Read timeout used by Apache HttpClient
+    ReadTimeout: 3000

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: microservicesclient
+  cloud:
+    config:
+      enabled: false
